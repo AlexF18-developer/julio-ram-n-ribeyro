@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>La palabra del mudo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>La palabra del mudo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#">Ribeyro</a>
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-      <li class="nav-item"><a class="nav-link active" href="obra1.html">Obra 1</a></li>
-      <li class="nav-item"><a class="nav-link" href="obra2.html">Obra 2</a></li>
-    </ul>
+    <a class="navbar-brand" href="index.html">Ribeyro</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Obra 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="obra1.html">Obra 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="obra2.html">Obra 3</a></li>
+        <li class="nav-item"><a class="nav-link" href="biografia.html">Biografía</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
 <div class="container mt-4">
-    <div class="card">
-        <div class="card-body">
-            <h2>La palabra del mudo</h2>
-            <p>
-                <strong>La palabra del mudo</strong> es una recopilación de cuentos donde Ribeyro retrata
-                personajes humildes y frustrados.
-                La obra destaca por su estilo sencillo y su mirada crítica de la sociedad.
-            </p>
-        </div>
+  <div class="card mx-auto" style="max-width: 600px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Biblioteca.jpg" class="card-img-top" alt="Libros">
+    <div class="card-body">
+      <h3>La palabra del mudo</h3>
+      <p>
+        Es una recopilación de cuentos que retratan personajes comunes, frustrados y silenciosos.
+        Ribeyro presenta una visión crítica y realista de la sociedad.
+      </p>
     </div>
+  </div>
 </div>
 
 <footer class="bg-dark text-white text-center p-3 mt-4">
-    Obras de Ribeyro
+  Obras de Ribeyro
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
